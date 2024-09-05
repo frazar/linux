@@ -35,6 +35,10 @@ impl BStr {
 }
 
 impl fmt::Display for BStr {
+    /// <p style="font-weight: bold; background: #dad09d;">
+    /// Be wary of your editor’s word-wrap corrupting your patch, if you choose to cut-n-paste your patch.
+    /// </p>
+    ///
     /// Formats printable ASCII characters, escaping the rest.
     ///
     /// ```
